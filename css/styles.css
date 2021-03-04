@@ -1,0 +1,11 @@
+.slides-pagination a {
+  border: 1px solid #FFFFFF;
+  width: 17px;
+  height: 17px;
+  margin: 16px;
+  text-indent: 100%;
+}
+
+.slides-pagination a.current {
+  background: #FFFFFF;
+}
