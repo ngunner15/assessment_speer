@@ -65,27 +65,31 @@
     </div>
   </div>
   <div id="perks" class="perks-section">
-    <div class="header header--align">
+    <!-- Add BEM modifier for header alignment -->
+    <div class="header perks-header--align">
       <span class="header__main">
         <span class="header__hamburger">☰</span>
         <span class="header__logo">EXP|CON</span>
       </span>
       <!-- Add BEM modifier for button color -->
-      <button class="body__button body__button--pricing body__button--yellow">TRY IT NOW</button>
+      <button class="body__button body__button--pricing body__button--gradient">TRY IT NOW</button>
     </div>
     <div class="perks">
       <p class="perks__heading">PERKS</p>
-      <div class="perks__content">
-        <div class="perks__card">
-          <p class="perks__title">Subscription Payment Model</p>
+      <div class="perks__cards">
+        <!-- Add BEM modifier for text and border color -->
+        <div class="perks__card perks__card--red">
+          <p class="perks__title perks__title--red">Subscription Payment Model</p>
           <p class="perks__content">No commitment, cancel anytime. Never worry about forgetting a payment again!</p>
         </div>
-        <div class="perks__card">
-          <p class="perks__title">No Fee Cancelation Policy</p>
+        <!-- Add BEM modifier for text and border color -->
+        <div class="perks__card perks__card--lightblue">
+          <p class="perks__title perks__title--lightblue">No Fee Cancelation Policy</p>
           <p class="perks__content">No commitment, cancel anytime. Never worry about forgetting a payment again!</p>
         </div>
-        <div class="perks__card">
-          <p class="perks__title">Subscription Payment Model</p>
+        <!-- Add BEM modifier for text and border color -->
+        <div class="perks__card perks__card--yellow">
+          <p class="perks__title perks__title--yellow">Subscription Payment Model</p>
           <p class="perks__content">No commitment, cancel anytime. Never worry about forgetting a payment again!</p>
         </div>
       </div>
