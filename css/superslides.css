@@ -47,15 +47,15 @@
 .slides-pagination a {
   border: 1px solid #FFFFFF;
   border-radius: 15px;
-  width: 17px;
-  height: 17px;
+  width: 12.8px;
+  height: 12.8px;
   display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
   zoom: 1;
   *display: inline;
-  margin: 16px;
+  margin: 12.8px;
   overflow: hidden;
   text-indent: 100%;
 }
