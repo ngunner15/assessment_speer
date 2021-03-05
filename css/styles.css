@@ -259,15 +259,15 @@ html, body {
   background: #FFB33F 0% 0% no-repeat padding-box;
 }
 
-.yellow-section .header--align {
+.header--align {
   margin-top: -52.8px;
 }
 
-.yellow-section .body__button--yellow {
+.body__button--yellow {
   color: #FFB33F;
 }
 
-.yellow-section .body__heading--align {
+.body__heading--align {
   -ms-flex-item-align: end;
       align-self: flex-end;
   margin-right: 65px;
