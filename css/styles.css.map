@@ -4,7 +4,12 @@
     "sources": [
         "../scss/styles.scss",
         "../scss/_base.scss",
-        "../scss/_hero.scss"
+        "../scss/_hero.scss",
+        "../scss/_red.scss",
+        "../scss/_yellow.scss",
+        "../scss/_perks.scss",
+        "../scss/_reviews.scss",
+        "../scss/_exp-con.scss"
     ],
     "names": [],
     "file": "styles.css"
