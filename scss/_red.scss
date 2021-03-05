@@ -5,12 +5,12 @@
   height: 864px;
   padding: 0 76px 0 76px;
   background: #D34848 0% 0% no-repeat padding-box;
+}
 
-  &__header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 
   &__main {
     display: flex;
@@ -30,13 +30,13 @@
     letter-spacing: 3.84px;
     color: #FFFFFF;
   }
+}
 
-  &__body {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 0 80px 0 80px;
-  }
+.body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 80px 0 80px;
 
   &__heading {
     display: flex;
@@ -63,7 +63,6 @@
   &__button {
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 63.2px;
-    color: #D1346E;
     border: none;
 
     &--pricing {
@@ -78,6 +77,10 @@
       height: 64.8px;
       font: normal normal bold 18.4px/22.4px 'Helvetica';
       letter-spacing: 1.84px;
+    }
+
+    &--red {
+      color: #D1346E;
     }
   }
 
