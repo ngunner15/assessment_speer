@@ -16,3 +16,20 @@ html, body {
   justify-content: center;
 }
 
+.heading {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  color: #FFFFFF;
+  z-index: 5;
+}
+
+.heading-title {
+  font: normal normal bold 65px/79px 'Helvetica';
+  letter-spacing: 6.5px;
+}
+
+.heading-content {
+  font: normal normal normal 32px/44px 'Helvetica';
+  letter-spacing: 3.2px;
+}
