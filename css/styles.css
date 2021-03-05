@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'Helvetica';
-  src: local('FreeSans'), url(/fonts/FreeSans.ttf) format('truetype');
+  src: local("FreeSans"), url(/fonts/FreeSans.ttf) format("truetype");
 }
 
-html, body { 
+html, body {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -11,15 +11,29 @@ html, body {
 }
 
 .hero-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .heading {
   position: absolute;
-  flex-direction: column;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   text-align: center;
   width: 100%;
@@ -30,7 +44,9 @@ html, body {
 .heading-title {
   font: normal normal bold 52px/63.2px 'Helvetica';
   letter-spacing: 5.2px;
-  align-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   margin: 0;
 }
 
@@ -38,25 +54,31 @@ html, body {
   width: 656px;
   font: normal normal normal 25.6px/35.2px 'Helvetica';
   letter-spacing: 2.56px;
-  align-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   margin-top: 34.4px;
   margin-bottom: 34.4px;
 }
 
 .heading button {
-  align-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   width: 227.2px;
   height: 63.2px;
   outline: none;
   border-radius: 63.2px;
+  background: transparent -webkit-gradient(linear, left top, right top, from(#1FE1E9), color-stop(34%, #5E33D1), color-stop(65%, #D34848), to(#FFB33F)) 0% 0% no-repeat padding-box;
   background: transparent linear-gradient(90deg, #1FE1E9 0%, #5E33D1 34%, #D34848 65%, #FFB33F 100%) 0% 0% no-repeat padding-box;
   font: normal normal bold 18.4px/22.4px 'Helvetica';
   letter-spacing: 1.84px;
   color: #FFFFFF;
+  -webkit-transition: all 500ms ease-in-out;
   transition: all 500ms ease-in-out;
 }
 
-.heading button::after { 
+.heading button::after {
   content: "";
   position: absolute;
 }
@@ -66,6 +88,7 @@ html, body {
   position: absolute;
 }
 
-/* .heading button:hover, .heading button:focus {
-
-} */
+.heading button:hover, .heading button:focus {
+  background-color: lightcoral;
+}
+/*# sourceMappingURL=styles.css.map */
