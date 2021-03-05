@@ -1,0 +1,103 @@
+.red-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 864px;
+  padding: 0 76px 0 76px;
+  background: #D34848 0% 0% no-repeat padding-box;
+
+  &__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 255px;
+  }
+
+  &__hamburger {
+    margin-top: -5px;
+    color: #FFFFFF;
+    font-size: 38.4px;
+  }
+
+  &__logo {
+    font: normal normal normal 38.4px/45.6px 'Helvetica';
+    letter-spacing: 3.84px;
+    color: #FFFFFF;
+  }
+
+  &__body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 80px 0 80px;
+  }
+
+  &__heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+  }
+
+  &__title {
+    margin: 0;
+    font: normal normal bold 59.2px/72px 'Helvetica';
+    letter-spacing: 5.92px;
+    color: #FFFFFF;
+  }
+
+  &__content {
+    width: 703px;
+    margin: 25px 0 30px 0;
+    font: normal normal normal 40.8px/48.8px 'Helvetica';
+    letter-spacing: 4.08px;
+    color: #0B0B0B;
+  }
+
+  &__button {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 63.2px;
+    color: #D1346E;
+    border: none;
+
+    &--pricing {
+      width: 198.4px;
+      height: 49.6px;
+      font: normal normal bold 14.4px/18.4px 'Helvetica';
+      letter-spacing: 1.44px;
+    }
+
+    &--demo {
+      width: 270.4px;
+      height: 64.8px;
+      font: normal normal bold 18.4px/22.4px 'Helvetica';
+      letter-spacing: 1.84px;
+    }
+  }
+
+  &__speakers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 45px;
+    height: 550px;
+  }
+
+  &__speaker {
+    max-width: 265px;
+    max-height: 380px;
+
+    &--one {
+      align-self: flex-start;
+    }
+    &--two {
+      align-self: flex-end;
+    }
+  }
+}
