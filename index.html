@@ -45,7 +45,25 @@
       </div>
     </div>
   </div>
-  <div id="yellow" class="yellow-section"></div>
+  <div id="yellow" class="yellow-section">
+    <!-- Reuse header and body class from red-section -->
+    <!-- Add BEM modifier for header alignment -->
+    <div class="header header--align">
+      <span class="header__main">
+        <span class="header__hamburger">☰</span>
+        <span class="header__logo">EXP|CON</span>
+      </span>
+      <!-- Add BEM modifier for button color -->
+      <button class="body__button body__button--pricing body__button--yellow">TRY IT NOW</button>
+    </div>
+    <!-- Add BEM modifier for body__heading alignment -->
+    <div class="body__heading body__heading--align">
+      <p class="body__title">FRONT ROW SEATS</p>
+      <p class="body__content">Experience concerts up close and personal.</p>
+      <!-- Add BEM modifier for button color -->
+      <button class="body__button body__button--demo body__button--yellow">SEE DEMO</button>
+    </div>
+  </div>
   <div id="perks" class="perks-section"></div>
   <div id="reviews" class="reviews-section"></div>
   <div id="expCon" class="exp-con-section"></div>
