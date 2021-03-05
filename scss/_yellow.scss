@@ -1,0 +1,26 @@
+.yellow-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 864px;
+  padding: 0 76px 0 76px;
+  background: #FFB33F 0% 0% no-repeat padding-box;
+
+  .header {
+    &--align {
+      margin-top: -52.8px;
+    }
+  }
+
+  .body {
+    &__button--yellow {
+      color: #FFB33F;
+    }
+
+    &__heading--align {
+      align-self: flex-end;
+      margin-right: 65px;
+      margin-bottom: 190px;
+    }
+  }
+}
