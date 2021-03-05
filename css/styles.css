@@ -42,3 +42,30 @@ html, body {
   margin-top: 34.4px;
   margin-bottom: 34.4px;
 }
+
+.heading button {
+  align-self: center;
+  width: 227.2px;
+  height: 63.2px;
+  outline: none;
+  border-radius: 63.2px;
+  background: transparent linear-gradient(90deg, #1FE1E9 0%, #5E33D1 34%, #D34848 65%, #FFB33F 100%) 0% 0% no-repeat padding-box;
+  font: normal normal bold 18.4px/22.4px 'Helvetica';
+  letter-spacing: 1.84px;
+  color: #FFFFFF;
+  transition: all 500ms ease-in-out;
+}
+
+.heading button::after { 
+  content: "";
+  position: absolute;
+}
+
+.heading button::before {
+  content: "";
+  position: absolute;
+}
+
+/* .heading button:hover, .heading button:focus {
+
+} */
