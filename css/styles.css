@@ -23,7 +23,7 @@ html, body {
           justify-content: center;
 }
 
-.heading {
+.hero-section .heading {
   position: absolute;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -41,7 +41,7 @@ html, body {
   z-index: 5;
 }
 
-.heading-title {
+.hero-section .heading__title {
   font: normal normal bold 52px/63.2px 'Helvetica';
   letter-spacing: 5.2px;
   -ms-flex-item-align: center;
@@ -50,7 +50,7 @@ html, body {
   margin: 0;
 }
 
-.heading-content {
+.hero-section .heading__content {
   width: 656px;
   font: normal normal normal 25.6px/35.2px 'Helvetica';
   letter-spacing: 2.56px;
@@ -61,7 +61,7 @@ html, body {
   margin-bottom: 34.4px;
 }
 
-.heading button {
+.hero-section .heading__button {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -78,17 +78,17 @@ html, body {
   transition: all 500ms ease-in-out;
 }
 
-.heading button::after {
+.hero-section .heading__button::after {
   content: "";
   position: absolute;
 }
 
-.heading button::before {
+.hero-section .heading__button::before {
   content: "";
   position: absolute;
 }
 
-.heading button:hover, .heading button:focus {
+.hero-section .heading__button:hover, .hero-section .heading__button:focus {
   background-color: lightcoral;
 }
 /*# sourceMappingURL=styles.css.map */
