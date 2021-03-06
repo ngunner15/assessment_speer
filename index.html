@@ -1,166 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Speer</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/superslides.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speer</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/superslides.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
 
-<body>
-  <div id="hero" class="hero-section">
-    <div class="slides-container">
-      <img src="img/image1.png" alt="Image 1">
-      <img src="img/image2.png" alt="Image 2">
-      <img src="img/image3.png" alt="Image 3">
+  <body>
+
+    <div id="hero" class="hero-section">
+      <div class="slides-container">
+        <img src="img/image1.png" alt="Image 1">
+        <img src="img/image2.png" alt="Image 2">
+        <img src="img/image3.png" alt="Image 3">
+      </div>
+      <div class="heading">
+        <p class="heading__title">INTERACTIVE CONCERT EXPERIENCE</p>
+        <p class="heading__content">Experience your favourite artists like never before and from the comfort of your own
+          home.</p>
+        <button class="heading__button">TRY IT NOW</button>
+      </div>
     </div>
-    <div class="heading">
-      <p class="heading__title">INTERACTIVE CONCERT EXPERIENCE</p>
-      <p class="heading__content">Experience your favourite artists like never before and from the comfort of your own home.</p>
-      <button class="heading__button">TRY IT NOW</button>
-    </div>
-  </div>
-  <div id="red" class="red-section">
-    <div class="header">
-      <span class="header__main">
-        <span class="header__hamburger">☰</span>
-        <span class="header__logo">EXP|CON</span>
-      </span>
-      <!-- Add BEM modifier for button color -->
-      <button class="body__button body__button--pricing body__button--red">TRY IT NOW</button>
-    </div>
-    <div class="body">
-      <div class="body__heading">
-        <p class="body__title">SUPERIOR SOUND</p>
-        <p class="body__content">Experience live versions of your favourite songs.</p>
+
+    <div id="red" class="red-section">
+      <div class="header">
+        <span class="header__main">
+          <span class="header__hamburger">☰</span>
+          <span class="header__logo">EXP|CON</span>
+        </span>
         <!-- Add BEM modifier for button color -->
-        <button class="body__button body__button--demo body__button--red">SEE DEMO</button>
+        <button class="body__button body__button--pricing body__button--red">TRY IT NOW</button>
       </div>
-      <div class="body__speakers">
-        <img class="body__speaker body__speaker--one" src="img/speaker1.png" alt="Speaker 1">
-        <img class="body__speaker body__speaker--two" src="img/speaker2.png" alt="Speaker 2">
-      </div>
-    </div>
-  </div>
-  <div id="yellow" class="yellow-section">
-    <!-- Reuse header and body class from red-section -->
-    <!-- Add BEM modifier for header alignment -->
-    <div class="header header--align">
-      <span class="header__main">
-        <span class="header__hamburger">☰</span>
-        <span class="header__logo">EXP|CON</span>
-      </span>
-      <!-- Add BEM modifier for button color -->
-      <button class="body__button body__button--pricing body__button--yellow">TRY IT NOW</button>
-    </div>
-    <!-- Add BEM modifier for body__heading alignment -->
-    <div class="body__heading body__heading--align">
-      <p class="body__title">FRONT ROW SEATS</p>
-      <p class="body__content">Experience concerts up close and personal.</p>
-      <!-- Add BEM modifier for button color -->
-      <button class="body__button body__button--demo body__button--yellow">SEE DEMO</button>
-    </div>
-  </div>
-  <div id="perks" class="perks-section">
-    <!-- Add BEM modifier for header alignment -->
-    <div class="header perks-header--align">
-      <span class="header__main">
-        <span class="header__hamburger">☰</span>
-        <span class="header__logo">EXP|CON</span>
-      </span>
-      <!-- Add BEM modifier for button color -->
-      <button class="body__button body__button--pricing body__button--gradient">TRY IT NOW</button>
-    </div>
-    <div class="perks">
-      <p class="perks__heading">PERKS</p>
-      <div class="perks__cards">
-        <!-- Add BEM modifier for text and border color -->
-        <div class="perks__card perks__card--red">
-          <p class="perks__title perks__title--red">Subscription Payment Model</p>
-          <p class="perks__content">No commitment, cancel anytime. Never worry about forgetting a payment again!</p>
+      <div class="body">
+        <div class="body__heading">
+          <p class="body__title">SUPERIOR SOUND</p>
+          <p class="body__content">Experience live versions of your favourite songs.</p>
+          <!-- Add BEM modifier for button color -->
+          <button class="body__button body__button--demo body__button--red">SEE DEMO</button>
         </div>
-        <!-- Add BEM modifier for text and border color -->
-        <div class="perks__card perks__card--lightblue">
-          <p class="perks__title perks__title--lightblue">No Fee Cancelation Policy</p>
-          <p class="perks__content">No commitment, cancel anytime. Never worry about forgetting a payment again!</p>
-        </div>
-        <!-- Add BEM modifier for text and border color -->
-        <div class="perks__card perks__card--yellow">
-          <p class="perks__title perks__title--yellow">Subscription Payment Model</p>
-          <p class="perks__content">No commitment, cancel anytime. Never worry about forgetting a payment again!</p>
+        <div class="body__speakers">
+          <img class="body__speaker body__speaker--one" src="img/speaker1.png" alt="Speaker 1">
+          <img class="body__speaker body__speaker--two" src="img/speaker2.png" alt="Speaker 2">
         </div>
       </div>
     </div>
-  </div>
-  <div id="reviews" class="reviews-section">
-    <!-- Add BEM modifier for header alignment -->
-    <div class="header reviews-header--align">
-      <span class="header__main">
-        <span class="header__hamburger">☰</span>
-        <span class="header__logo">EXP|CON</span>
-      </span>
-      <!-- Add BEM modifier for button color -->
-      <button class="body__button body__button--pricing body__button--lightblue">TRY IT NOW</button>
-    </div>
-    <div class="reviews-body">
-      <div class="images">
-        <img class="images__speaker images__speaker--one" src="img/small-speaker1.png" alt="Small Speaker 1">
-        <img class="images__speaker images__speaker--two" src="img/small-speaker2.png" alt="Small Speaker 2">
+
+    <div id="yellow" class="yellow-section">
+      <!-- Reuse header and body class from red-section -->
+      <!-- Add BEM modifier for header alignment -->
+      <div class="header header--align">
+        <span class="header__main">
+          <span class="header__hamburger">☰</span>
+          <span class="header__logo">EXP|CON</span>
+        </span>
+        <!-- Add BEM modifier for button color -->
+        <button class="body__button body__button--pricing body__button--yellow">TRY IT NOW</button>
       </div>
-      <div class="reviews">
-        <p class="reviews__heading">REVIEWS</p>
-        <div class="reviews__cards">
-          <div class="reviews__card">
-            <p class="reviews__star">★★★★★</p>
-            <p class="reviews__title">ARTIST</p>
-            <p class="reviews__content">“Love it, it’s the Best.I can’t live without it!”</p>
+      <div class="yellow-body">
+        <p class="yellow-body__title">FRONT ROW SEATS</p>
+        <p class="yellow-body__content">Experience concerts up close and personal.</p>
+        <!-- Add BEM modifier for button color -->
+        <button class="body__button body__button--demo yellow-body__button--yellow">SEE DEMO</button>
+      </div>
+    </div>
+
+    <div id="perks" class="perks-section">
+      <!-- Add BEM modifier for header alignment -->
+      <div class="header perks-header--align">
+        <span class="header__main">
+          <span class="header__hamburger">☰</span>
+          <span class="header__logo">EXP|CON</span>
+        </span>
+        <!-- Add BEM modifier for button color -->
+        <button class="body__button body__button--pricing body__button--gradient">TRY IT NOW</button>
+      </div>
+      <div class="perks">
+        <p class="perks__heading">PERKS</p>
+        <div class="perks__cards">
+          <!-- Add BEM modifier for text and border color -->
+          <div class="perks__card perks__card--red">
+            <p class="perks__title perks__title--red">Subscription Payment Model</p>
+            <p class="perks__content">No commitment, cancel anytime. Never worry about forgetting a payment again!</p>
           </div>
-          <div class="reviews__card">
-            <p class="reviews__star">★★★★★</p>
-            <p class="reviews__title">PRODUCER</p>
-            <p class="reviews__content">“Love it, it’s the Best.I can’t live without it!”</p>
+          <!-- Add BEM modifier for text and border color -->
+          <div class="perks__card perks__card--lightblue">
+            <p class="perks__title perks__title--lightblue">No Fee Cancelation Policy</p>
+            <p class="perks__content">No commitment, cancel anytime. Never worry about forgetting a payment again!</p>
           </div>
-          <div class="reviews__card">
-            <p class="reviews__star">★★★★★</p>
-            <p class="reviews__title">MUSIC FAN</p>
-            <p class="reviews__content">“Love it, it’s the Best.I can’t live without it!”</p>
+          <!-- Add BEM modifier for text and border color -->
+          <div class="perks__card perks__card--yellow">
+            <p class="perks__title perks__title--yellow">Subscription Payment Model</p>
+            <p class="perks__content">No commitment, cancel anytime. Never worry about forgetting a payment again!</p>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div id="expCon" class="exp-con-section">
-    <!-- Add BEM modifier for header alignment -->
-    <div class="header exp-con-header--align">
-      <span class="header__main">
-        <span class="header__hamburger">☰</span>
-        <span class="header__logo">EXP|CON</span>
-      </span>
-      <!-- Add BEM modifier for button color -->  
-    </div>
-    <div class="exp-con-body">
-      <div class="exp-con">
-        <p class="exp-con__title">GET EXP|CON NOW</p>
-        <p class="exp-con__content">Purchase and download the app.</p>
+
+    <div id="reviews" class="reviews-section">
+      <!-- Add BEM modifier for header alignment -->
+      <div class="header reviews-header--align">
+        <span class="header__main">
+          <span class="header__hamburger">☰</span>
+          <span class="header__logo">EXP|CON</span>
+        </span>
+        <!-- Add BEM modifier for button color -->
+        <button class="body__button body__button--pricing body__button--lightblue">TRY IT NOW</button>
       </div>
-      <button class="heading__button">TRY IT NOW</button>
+      <div class="reviews-body">
+        <div class="images">
+          <img class="images__speaker images__speaker--one" src="img/small-speaker1.png" alt="Small Speaker 1">
+          <img class="images__speaker images__speaker--two" src="img/small-speaker2.png" alt="Small Speaker 2">
+        </div>
+        <div class="reviews">
+          <p class="reviews__heading">REVIEWS</p>
+          <div class="reviews__cards">
+            <div class="reviews__card">
+              <p class="reviews__star">★★★★★</p>
+              <p class="reviews__title">ARTIST</p>
+              <p class="reviews__content">“Love it, it’s the Best.I can’t live without it!”</p>
+            </div>
+            <div class="reviews__card">
+              <p class="reviews__star">★★★★★</p>
+              <p class="reviews__title">PRODUCER</p>
+              <p class="reviews__content">“Love it, it’s the Best.I can’t live without it!”</p>
+            </div>
+            <div class="reviews__card">
+              <p class="reviews__star">★★★★★</p>
+              <p class="reviews__title">MUSIC FAN</p>
+              <p class="reviews__content">“Love it, it’s the Best.I can’t live without it!”</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-  <footer>
-    <div class="email">
-      <span class="email__symbol">✉</span>
-      <span class="email__content">support@experienceconcerts.co</span>
+
+    <div id="expCon" class="exp-con-section">
+      <!-- Add BEM modifier for header alignment -->
+      <div class="header exp-con-header--align">
+        <span class="header__main">
+          <span class="header__hamburger">☰</span>
+          <span class="header__logo">EXP|CON</span>
+        </span>
+      </div>
+      <div class="exp-con-body">
+        <div class="exp-con">
+          <p class="exp-con__title">GET EXP|CON NOW</p>
+          <p class="exp-con__content">Purchase and download the app.</p>
+        </div>
+        <button class="heading__button">TRY IT NOW</button>
+      </div>
     </div>
-    <div class="footer">
-      <p class="footer__logo">EXP|CON</p>
-      <p class="footer__copyright">2019 © All Rights Reserved | Speer Technologies Incorporated</p>
-    </div>
-  </footer>
-</body>
-<script src="js/script.js" type="module"></script>
-<script src="js/jquery.superslides.min.js"></script>
+
+    <footer>
+      <div class="email">
+        <span class="email__symbol">✉</span>
+        <span class="email__content">support@experienceconcerts.co</span>
+      </div>
+      <div class="footer">
+        <p class="footer__logo">EXP|CON</p>
+        <p class="footer__copyright">2019 © All Rights Reserved | Speer Technologies Incorporated</p>
+      </div>
+    </footer>
+
+  </body>
+  <script src="js/script.js" type="module"></script>
+  <script src="js/jquery.superslides.min.js"></script>
 
 </html>
