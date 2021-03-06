@@ -3,6 +3,13 @@
   src: local("FreeSans"), url(/fonts/FreeSans.ttf) format("truetype");
 }
 
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -161,7 +168,8 @@ html, body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 0 5rem 0 5rem;
+  padding-left: 4rem;
+  position: relative;
 }
 
 .body__heading {
@@ -176,6 +184,7 @@ html, body {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: left;
+  width: 105rem;
 }
 
 .body__title {
@@ -186,7 +195,6 @@ html, body {
 }
 
 .body__content {
-  width: 43.9375rem;
   margin: 1.5625rem 0 1.875rem 0;
   font: normal normal normal 2.55rem/3.05rem 'Helvetica';
   letter-spacing: 0.255rem;
@@ -223,21 +231,15 @@ html, body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  margin-left: 2.8125rem;
+  padding-left: 1rem;
   height: 34.375rem;
+  width: 100%;
+  position: relative;
 }
 
 .body__speaker {
-  max-width: 16.5625rem;
-  max-height: 23.75rem;
-  position: relative;
+  max-width: 100%;
+  max-height: 60%;
 }
 
 .body__speaker--one {
@@ -263,21 +265,35 @@ html, body {
   height: 54rem;
   padding: 0 4.75rem 0 4.75rem;
   background: #FFB33F 0% 0% no-repeat padding-box;
+  position: relative;
 }
 
 .header--align {
-  margin-top: -3.3rem;
+  margin-top: -10rem;
 }
 
-.body__button--yellow {
+.yellow-body {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-top: -16rem;
+}
+
+.yellow-body__button--yellow {
   color: #FFB33F;
 }
 
-.body__heading--align {
-  -ms-flex-item-align: end;
-      align-self: flex-end;
-  margin-right: 4.0625rem;
-  margin-bottom: 11.875rem;
+.yellow-body__title {
+  margin: 0;
+  font: normal normal bold 3.7rem/4.5rem 'Helvetica';
+  letter-spacing: 0.37rem;
+  color: #FFFFFF;
+}
+
+.yellow-body__content {
+  margin: 3rem 0 3rem 0;
+  font: normal normal normal 2.55rem/3.05rem 'Helvetica';
+  letter-spacing: 0.255rem;
+  color: #191919;
 }
 
 .perks-section {
