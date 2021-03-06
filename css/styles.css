@@ -377,4 +377,116 @@ html, body {
   letter-spacing: 2.8px;
   color: #FFFFFF;
 }
+
+.reviews-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 864px;
+  padding: 0 76px 0 76px;
+  background: #1FE1E9;
+}
+
+.reviews-section .reviews-header--align {
+  margin-top: -30px;
+}
+
+.reviews-section .body__button--lightblue {
+  color: #1FE1E9;
+}
+
+.reviews-section .reviews-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 70%;
+}
+
+.reviews-section .reviews-body .images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  height: 35rem;
+  width: 40%;
+}
+
+.reviews-section .reviews-body .images__speaker {
+  max-height: 20rem;
+  max-width: 27rem;
+  position: relative;
+}
+
+.reviews-section .reviews-body .images__speaker--one {
+  right: 3.5rem;
+}
+
+.reviews-section .reviews-body .images__speaker--two {
+  top: -5rem;
+}
+
+.reviews-section .reviews-body .reviews {
+  width: 100%;
+  height: 80%;
+}
+
+.reviews-section .reviews-body .reviews__heading {
+  margin: 0;
+  font: normal normal bold 3.75rem/4.5rem 'Helvetica';
+  letter-spacing: 0.37rem;
+  color: #FFFFFF;
+}
+
+.reviews-section .reviews-body .reviews__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.reviews-section .reviews-body .reviews__star {
+  font-size: 2.6rem;
+}
+
+.reviews-section .reviews-body .reviews__title {
+  font: normal normal bold 1.75rem/2.15rem 'Helvetica';
+  letter-spacing: 0.175rem;
+  color: #FFFFFF;
+}
+
+.reviews-section .reviews-body .reviews__content {
+  font: normal normal normal 2.1875rem/2.05rem 'Helvetica';
+  letter-spacing: 0.175rem;
+  color: #191919;
+}
 /*# sourceMappingURL=styles.css.map */
