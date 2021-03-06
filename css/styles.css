@@ -42,8 +42,8 @@ html, body {
 }
 
 .hero-section .heading__title {
-  font: normal normal bold 52px/63.2px 'Helvetica';
-  letter-spacing: 5.2px;
+  font: normal normal bold 3.25rem/3.95rem 'Helvetica';
+  letter-spacing: 0.325rem;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -51,44 +51,47 @@ html, body {
 }
 
 .hero-section .heading__content {
-  width: 656px;
-  font: normal normal normal 25.6px/35.2px 'Helvetica';
-  letter-spacing: 2.56px;
+  width: 41rem;
+  font: normal normal normal 1.6rem/2.2rem 'Helvetica';
+  letter-spacing: 0.16rem;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  margin-top: 34.4px;
-  margin-bottom: 34.4px;
+  margin-top: 2.15rem;
+  margin-bottom: 2.15rem;
 }
 
-.hero-section .heading__button {
+.heading__button {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  width: 227.2px;
-  height: 63.2px;
+  width: 14.225rem;
+  height: 3.95rem;
   outline: none;
-  border-radius: 63.2px;
+  border-radius: 3.95rem;
   background: transparent -webkit-gradient(linear, left top, right top, from(#1FE1E9), color-stop(34%, #5E33D1), color-stop(65%, #D34848), to(#FFB33F)) 0% 0% no-repeat padding-box;
   background: transparent linear-gradient(90deg, #1FE1E9 0%, #5E33D1 34%, #D34848 65%, #FFB33F 100%) 0% 0% no-repeat padding-box;
-  font: normal normal bold 18.4px/22.4px 'Helvetica';
-  letter-spacing: 1.84px;
+  font: normal normal bold 1.15rem/1.4rem 'Helvetica';
+  letter-spacing: 0.115rem;
   color: #FFFFFF;
   -webkit-transition: all 500ms ease-in-out;
   transition: all 500ms ease-in-out;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
 
-.hero-section .heading__button::after {
+.heading__button::after {
   content: "";
   position: absolute;
 }
 
-.hero-section .heading__button::before {
+.heading__button::before {
   content: "";
   position: absolute;
 }
 
-.hero-section .heading__button:hover, .hero-section .heading__button:focus {
+.heading__button:hover {
   background-color: lightcoral;
 }
 
@@ -489,5 +492,65 @@ html, body {
   font: normal normal normal 2.1875rem/2.05rem 'Helvetica';
   letter-spacing: 0.175rem;
   color: #191919;
+}
+
+.exp-con-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 40.7rem;
+  padding: 0 4.75rem 0 4.75rem;
+  background: #191919 0% 0% no-repeat padding-box;
+}
+
+.exp-con-section .exp-con-header--align {
+  margin-top: -4rem;
+}
+
+.exp-con-section .exp-con-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 40%;
+}
+
+.exp-con-section .exp-con-body .exp-con {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.exp-con-section .exp-con-body .exp-con__title {
+  margin: 0;
+  font: normal normal bold 3.7rem/4.5rem 'Helvetica';
+  letter-spacing: 0.37rem;
+  color: #D34848;
+}
+
+.exp-con-section .exp-con-body .exp-con__content {
+  margin: 0;
+  font: normal normal normal 2.55rem/3.05rem 'Helvetica';
+  letter-spacing: 0.255rem;
+  color: #FFFFFF;
 }
 /*# sourceMappingURL=styles.css.map */

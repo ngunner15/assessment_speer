@@ -1,0 +1,39 @@
+.exp-con-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 40.7rem;
+  padding: 0 4.75rem 0 4.75rem;
+  background: #191919 0% 0% no-repeat padding-box;
+
+  .exp-con-header--align {
+    margin-top: -4rem;
+  }
+
+  .exp-con-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 40%;
+
+    .exp-con {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+
+      &__title {
+        margin: 0;
+        font: normal normal bold 3.7rem/4.5rem 'Helvetica';
+        letter-spacing: 0.37rem;
+        color: #D34848;
+      }
+
+      &__content {
+        margin: 0;
+        font: normal normal normal 2.55rem/3.05rem 'Helvetica';
+        letter-spacing: 0.255rem;
+        color: #FFFFFF;
+      }
+    }
+  }
+}
