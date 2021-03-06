@@ -553,4 +553,65 @@ html, body {
   letter-spacing: 0.255rem;
   color: #FFFFFF;
 }
+
+footer {
+  height: 26.875rem;
+  padding: 0 4.75rem 0 4.75rem;
+  background: #5E33D1 0% 0% no-repeat padding-box;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+footer .email {
+  padding-bottom: 2rem;
+  height: 15%;
+}
+
+footer .email__symbol {
+  margin-right: 0.5rem;
+  font-size: 2rem;
+}
+
+footer .email__content {
+  font: normal normal normal 1.75rem/2.05rem 'Helvetica';
+  letter-spacing: 0.175rem;
+}
+
+footer .footer {
+  height: 50%;
+  -ms-flex-item-align: center;
+      align-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+footer .footer__logo {
+  margin: 0;
+  font: normal normal normal 2.4rem/2.85rem 'Helvetica';
+  letter-spacing: 0.24rem;
+  text-align: center;
+}
+
+footer .footer__copyright {
+  margin: 0;
+  font: normal normal normal 1.2rem/1.455rem 'Helvetica';
+  letter-spacing: 0.12rem;
+}
 /*# sourceMappingURL=styles.css.map */

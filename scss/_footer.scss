@@ -1,0 +1,45 @@
+footer {
+  height: 26.875rem;
+  padding: 0 4.75rem 0 4.75rem;
+  background: #5E33D1 0% 0% no-repeat padding-box;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  .email {
+    padding-bottom: 2rem;
+    height: 15%;
+
+    &__symbol {
+      margin-right: 0.5rem;
+      font-size: 2rem;
+    }
+
+    &__content {
+      font: normal normal normal 1.75rem/2.05rem 'Helvetica';
+      letter-spacing: 0.175rem;
+    }
+  }
+
+  .footer {
+    height: 50%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    &__logo {
+      margin: 0;
+      font: normal normal normal 2.4rem/2.85rem 'Helvetica';
+      letter-spacing: 0.24rem;
+      text-align: center;
+    }
+
+    &__copyright {
+      margin: 0;
+      font: normal normal normal 1.2rem/1.455rem 'Helvetica';
+      letter-spacing: 0.12rem;
+    }
+  }
+}
