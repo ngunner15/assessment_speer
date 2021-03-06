@@ -95,7 +95,43 @@
       </div>
     </div>
   </div>
-  <div id="reviews" class="reviews-section"></div>
+  <div id="reviews" class="reviews-section">
+    <!-- Add BEM modifier for header alignment -->
+    <div class="header reviews-header--align">
+      <span class="header__main">
+        <span class="header__hamburger">☰</span>
+        <span class="header__logo">EXP|CON</span>
+      </span>
+      <!-- Add BEM modifier for button color -->
+      <button class="body__button body__button--pricing body__button--lightblue">TRY IT NOW</button>
+    </div>
+    <div class="reviews-body">
+      <div class="images">
+        <img class="images__speaker images__speaker--one" src="img/small-speaker1.png" alt="Small Speaker 1">
+        <img class="images__speaker images__speaker--two" src="img/small-speaker2.png" alt="Small Speaker 2">
+      </div>
+      <div class="reviews">
+        <p class="reviews__heading">REVIEWS</p>
+        <div class="reviews__cards">
+          <div class="reviews__card">
+            <p class="reviews__star">★★★★★</p>
+            <p class="reviews__title">ARTIST</p>
+            <p class="reviews__content">“Love it, it’s the Best.I can’t live without it!”</p>
+          </div>
+          <div class="reviews__card">
+            <p class="reviews__star">★★★★★</p>
+            <p class="reviews__title">PRODUCER</p>
+            <p class="reviews__content">“Love it, it’s the Best.I can’t live without it!”</p>
+          </div>
+          <div class="reviews__card">
+            <p class="reviews__star">★★★★★</p>
+            <p class="reviews__title">MUSIC FAN</p>
+            <p class="reviews__content">“Love it, it’s the Best.I can’t live without it!”</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <div id="expCon" class="exp-con-section"></div>
 </body>
 <script src="js/script.js" type="module"></script>
