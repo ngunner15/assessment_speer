@@ -5,22 +5,34 @@
   height: 54rem;
   padding: 0 4.75rem 0 4.75rem;
   background: #FFB33F 0% 0% no-repeat padding-box;
+  position: relative;
 }
 
 .header {
   &--align {
-    margin-top: -3.3rem;
+    margin-top: -10rem;
   }
 }
 
-.body {
+.yellow-body {
+  align-self: flex-end;
+  margin-top: -16rem;
+
   &__button--yellow {
     color: #FFB33F;
   }
 
-  &__heading--align {
-    align-self: flex-end;
-    margin-right: 4.0625rem;
-    margin-bottom: 11.875rem;
+  &__title {
+    margin: 0;
+    font: normal normal bold 3.7rem/4.5rem 'Helvetica';
+    letter-spacing: 0.37rem;
+    color: #FFFFFF;
+  }
+
+  &__content {
+    margin: 3rem 0 3rem 0;
+    font: normal normal normal 2.55rem/3.05rem 'Helvetica';
+    letter-spacing: 0.255rem;
+    color: #191919;
   }
 }
