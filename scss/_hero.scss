@@ -14,45 +14,50 @@
     z-index: 5;
 
     &__title {
-      font: normal normal bold 52px/63.2px 'Helvetica';
-      letter-spacing: 5.2px;
+      font: normal normal bold 3.25rem/3.95rem 'Helvetica';
+      letter-spacing: 0.325rem;
       align-self: center;
       margin: 0;
     }
 
     &__content {
-      width: 656px;
-      font: normal normal normal 25.6px/35.2px 'Helvetica';
-      letter-spacing: 2.56px;
+      width: 41rem;
+      font: normal normal normal 1.6rem/2.2rem 'Helvetica';
+      letter-spacing: 0.16rem;
       align-self: center;
-      margin-top: 34.4px;
-      margin-bottom: 34.4px;
+      margin-top: 2.15rem;
+      margin-bottom: 2.15rem;
     }
+  }
+}
 
-    &__button {
-      align-self: center;
-      width: 227.2px;
-      height: 63.2px;
-      outline: none;
-      border-radius: 63.2px;
-      background: transparent linear-gradient(90deg, #1FE1E9 0%, #5E33D1 34%, #D34848 65%, #FFB33F 100%) 0% 0% no-repeat padding-box;
-      font: normal normal bold 18.4px/22.4px 'Helvetica';
-      letter-spacing: 1.84px;
-      color: #FFFFFF;
-      transition: all 500ms ease-in-out;
-    }
+.heading {
+  &__button {
+    align-self: center;
+    width: 14.225rem;
+    height: 3.95rem;
+    outline: none;
+    border-radius: 3.95rem;
+    background: transparent linear-gradient(90deg, #1FE1E9 0%, #5E33D1 34%, #D34848 65%, #FFB33F 100%) 0% 0% no-repeat padding-box;
+    font: normal normal bold 1.15rem/1.4rem 'Helvetica';
+    letter-spacing: 0.115rem;
+    color: #FFFFFF;
+    transition: all 500ms ease-in-out;
+    border: none;
+    outline: none;
+    cursor: pointer;
 
-    &__button::after { 
+    &::after { 
       content: "";
       position: absolute;
     }
-    
-    &__button::before {
+
+    &::before {
       content: "";
       position: absolute;
     }
 
-    &__button:hover, &__button:focus {
+    &:hover {
       background-color: lightcoral;
     }
   }
