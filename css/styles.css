@@ -98,10 +98,6 @@ html, body {
   position: absolute;
 }
 
-.heading__button:hover {
-  background-color: lightcoral;
-}
-
 .red-section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -350,7 +346,7 @@ html, body {
   z-index: 1;
 }
 
-.perks-section .perks__card:before {
+.perks-section .perks__card::before {
   content: "";
   position: absolute;
   left: 0;
