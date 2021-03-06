@@ -103,8 +103,8 @@ html, body {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  height: 864px;
-  padding: 0 76px 0 76px;
+  height: 54rem;
+  padding: 0 4.75rem 0 4.75rem;
   background: #D34848 0% 0% no-repeat padding-box;
 }
 
@@ -132,18 +132,18 @@ html, body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 255px;
+  width: 15.9375rem;
 }
 
 .header__hamburger {
-  margin-top: -5px;
+  margin-top: -0.3125rem;
   color: #FFFFFF;
-  font-size: 38.4px;
+  font-size: 2.4rem;
 }
 
 .header__logo {
-  font: normal normal normal 38.4px/45.6px 'Helvetica';
-  letter-spacing: 3.84px;
+  font: normal normal normal 2.4em/2.85rem 'Helvetica';
+  letter-spacing: 0.24rem;
   color: #FFFFFF;
 }
 
@@ -158,7 +158,7 @@ html, body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 0 80px 0 80px;
+  padding: 0 5rem 0 5rem;
 }
 
 .body__heading {
@@ -177,39 +177,39 @@ html, body {
 
 .body__title {
   margin: 0;
-  font: normal normal bold 59.2px/72px 'Helvetica';
-  letter-spacing: 5.92px;
+  font: normal normal bold 3.7rem/4.5rem 'Helvetica';
+  letter-spacing: 0.37rem;
   color: #FFFFFF;
 }
 
 .body__content {
-  width: 703px;
-  margin: 25px 0 30px 0;
-  font: normal normal normal 40.8px/48.8px 'Helvetica';
-  letter-spacing: 4.08px;
+  width: 43.9375rem;
+  margin: 1.5625rem 0 1.875rem 0;
+  font: normal normal normal 2.55rem/3.05rem 'Helvetica';
+  letter-spacing: 0.255rem;
   color: #0B0B0B;
 }
 
 .body__button {
   background: #FFFFFF 0% 0% no-repeat padding-box;
-  border-radius: 63.2px;
+  border-radius: 3.95rem;
   border: none;
   outline: none;
   cursor: pointer;
 }
 
 .body__button--pricing {
-  width: 198.4px;
-  height: 49.6px;
+  width: 12.4rem;
+  height: 3.1rem;
   font: normal normal bold 14.4px/18.4px 'Helvetica';
-  letter-spacing: 1.44px;
+  letter-spacing: 0.09rem;
 }
 
 .body__button--demo {
-  width: 270.4px;
-  height: 64.8px;
-  font: normal normal bold 18.4px/22.4px 'Helvetica';
-  letter-spacing: 1.84px;
+  width: 16.9rem;
+  height: 4.05em;
+  font: normal normal bold 1.15rem/1.4rem 'Helvetica';
+  letter-spacing: 0.115rem;
 }
 
 .body__button--red {
@@ -227,13 +227,14 @@ html, body {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  margin-left: 45px;
-  height: 550px;
+  margin-left: 2.8125rem;
+  height: 34.375rem;
 }
 
 .body__speaker {
-  max-width: 265px;
-  max-height: 380px;
+  max-width: 16.5625rem;
+  max-height: 23.75rem;
+  position: relative;
 }
 
 .body__speaker--one {
